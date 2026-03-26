@@ -1,0 +1,231 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+/* Body e cores */
+body {
+    background-color: #000000;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    color: #e20000;
+    transition: all 0.5s ease;
+    cursor:pointer;
+}
+
+h2 { text-align: center;
+    margin-bottom: 40px;
+    }
+
+h3 { text-align: center;
+    font-size: 15px;
+    color: black;
+    }
+
+h3:hover { color: #ff5d5d;
+           transition: all 15s ease;
+           cursor:not-allowed;
+    }
+
+.florh3 {width: 100%;}
+
+(padding-right: 60vh;
+    padding-left: 60vh;)
+
+
+p { text-align: center; }
+
+
+.fundoblanco { background-color: #e2e2e2; }
+
+.fundoblanco img:hover {
+    transform: scale(1);
+    cursor:pointer;
+}
+    
+
+header p:hover {
+    transform: scale(1);
+    color: #ff86e3;
+    transition: all 4s ease;
+    cursor:pointer;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* Seções */
+section {
+    margin-bottom: 30px;
+}
+
+/* Imagens */
+
+
+
+.paddingtopbtmimg {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paddingtopbtmimg img {
+  width: 33vw;
+}
+
+
+
+.paddingtopbtmimg img:hover {
+    transform: scale(0.95);
+    transition: all 0.5s ease;
+    cursor:not-allowed;
+    }
+
+.fotografiasautorais {
+  width: 33%;
+    margin-top calma: 50vh;
+    margin-bottom calma: 20vh;
+}
+
+
+
+/* Botões */
+.btn {
+    background-color: #000000;
+    color: #e20000;
+    border: none;
+    padding: 12px 24px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    font-weight: 600;
+    text-decoration:underline;
+    font-style: oblique;
+    font-family: serif;
+    font-weight: 100;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #fafa00;
+    transform: scale(1.05);
+    font-weight:300;
+}
+
+
+.btno {
+    background-color: #000000;
+    color: #e20000;
+    border: none;
+    padding: 12px 24px;
+    margin: 5px;
+    cursor:not-allowed;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    font-weight: 100;
+    text-decoration:underline;
+    font-style: oblique;
+    font-family: serif;
+}
+
+.btno:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+    font-weight:300;
+    color: #980000;
+}
+
+
+.button-container {
+      display: flex;
+  justify-content: center;      /* centra horizontalmente */
+  align-items: center;          /* centra verticalmente */
+  height: 10vh;                /* altura total da viewport */
+    padding-bottom: 20vh;
+    padding-top: 5vh;
+    }
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #67c4ff;
+}
+
+
+/* coisas arcoiris */
+
+.rainbow-text {
+  background-image: linear-gradient(45deg, white, white, #f00000, #550000);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.5s ease-in-out;
+}
+
+.rainbow-text:hover {
+  animation: rainbowMove 14s linear infinite;
+}
+
+@keyframes rainbowMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+
+.buttoncontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0vh;
+}
+
+.buttoncontainer a{
+    width: 33%;
+}
+
+.buttoncontainer a:hover{
+    transform: scale(1);
+}
+
+.buttoncontainer img{
+    width: 100%;
+    height: auto;
+}
